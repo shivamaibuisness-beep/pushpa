@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FireVizo - Elite Free Fire Community</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)
+  }(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '825712737166808');
+  fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=825712737166808&ev=PageView&noscript=1"/>
+  </noscript>
+  <!-- End Meta Pixel Code -->
+
+  <style>
+    body{
+      box-sizing:border-box;
+      background:#0a0a0a;
+      color:#ffffff;
+      font-family:system-ui, sans-serif;
+    }
+    @keyframes fadeInUp{
+      from{opacity:0;transform:translateY(30px)}
+      to{opacity:1;transform:translateY(0)}
+    }
+    @keyframes pulse{
+      0%,100%{transform:scale(1)}
+      50%{transform:scale(1.05)}
+    }
+    .fade-in-up{animation:fadeInUp .8s ease-out forwards}
+    .pulse-animation{animation:pulse 2s infinite}
+    .gradient-text{
+      background:linear-gradient(135deg,#FF6B35,#F7931E);
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent;
+    }
+  </style>
+</head>
+
+<body class="overflow-auto">
+
+<!-- NAVBAR -->
+<nav class="fixed top-0 w-full bg-black/70 backdrop-blur z-50 px-6 py-4 flex justify-between items-center">
+  <div class="flex items-center gap-3">
+    <img src="https://speedyayu.site/wp-content/uploads/2026/01/FireVizo.jpeg"
+         class="w-10 h-10 rounded-full" alt="FireVizo">
+    <span class="text-2xl font-bold gradient-text">FireVizo</span>
+  </div>
+  <a href="https://t.me/+zrut8pMuNqs1MjE1" target="_blank"
+     class="bg-orange-500 px-6 py-2 rounded-full font-bold text-black">
+    Join Now
+  </a>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="min-h-screen flex items-center justify-center pt-24 text-center px-6 fade-in-up">
+  <div>
+    <img src="https://speedyayu.site/wp-content/uploads/2026/01/FireVizo.jpeg"
+         class="w-32 h-32 mx-auto rounded-full mb-6 shadow-lg" alt="FireVizo Logo">
+
+    <h1 class="text-5xl md:text-7xl font-bold gradient-text mb-6">
+      Join Elite Free Fire Players
+    </h1>
+
+    <p class="text-xl md:text-2xl max-w-3xl mx-auto mb-8 text-gray-300">
+      Daily custom matches, tournaments & a 50,000+ player community
+    </p>
+
+    <button id="main-cta"
+      class="bg-orange-500 px-10 py-5 rounded-full text-xl font-bold text-black pulse-animation">
+      Join Free Fire Community
+    </button>
+
+    <p class="text-sm opacity-75 mt-4">🔥
