@@ -1,11 +1,11 @@
 <!doctype html>
 <html lang="en" class="h-full">
-<head>
+ <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FireVizo - Elite Free Fire Community</title>
+  <title>PUSHPARAJ - Premium Aviator Signals</title>
 
-  <!-- Tailwind CSS -->
+  <script src="/_sdk/element_sdk.js"></script>
   <script src="https://cdn.tailwindcss.com"></script>
 
   <!-- Meta Pixel Code -->
@@ -29,62 +29,60 @@
   <!-- End Meta Pixel Code -->
 
   <style>
-    body{
-      box-sizing:border-box;
-      background:#0a0a0a;
-      color:#ffffff;
-      font-family:system-ui, sans-serif;
-    }
-    @keyframes fadeInUp{
-      from{opacity:0;transform:translateY(30px)}
-      to{opacity:1;transform:translateY(0)}
-    }
-    @keyframes pulse{
-      0%,100%{transform:scale(1)}
-      50%{transform:scale(1.05)}
-    }
-    .fade-in-up{animation:fadeInUp .8s ease-out forwards}
-    .pulse-animation{animation:pulse 2s infinite}
-    .gradient-text{
-      background:linear-gradient(135deg,#FF6B35,#F7931E);
+    body { box-sizing: border-box; }
+    @keyframes fadeInUp { from {opacity:0;transform:translateY(30px)} to {opacity:1;transform:translateY(0)} }
+    @keyframes float {0%,100%{transform:translateY(0)}50%{transform:translateY(-20px)}}
+    @keyframes pulse-glow {0%,100%{box-shadow:0 0 20px rgba(234,179,8,.4)}50%{box-shadow:0 0 40px rgba(234,179,8,.8)}}
+    .animate-fade-in-up{animation:fadeInUp .8s ease-out forwards}
+    .animate-float{animation:float 3s ease-in-out infinite}
+    .animate-pulse-glow{animation:pulse-glow 2s ease-in-out infinite}
+    .gradient-bg{background:linear-gradient(135deg,#1e293b,#0f172a)}
+    .card-hover{transition:.3s}
+    .card-hover:hover{transform:translateY(-8px);box-shadow:0 20px 40px rgba(0,0,0,.3)}
+    .stat-number{
+      font-weight:800;
+      background:linear-gradient(135deg,#eab308,#f59e0b);
       -webkit-background-clip:text;
       -webkit-text-fill-color:transparent;
     }
+    .testimonial-card{
+      background:rgba(255,255,255,.05);
+      backdrop-filter:blur(10px);
+      border:1px solid rgba(255,255,255,.1);
+    }
+    .cta-button{
+      background:linear-gradient(135deg,#eab308,#f59e0b);
+      transition:.3s;
+    }
+    .cta-button:hover{
+      background:linear-gradient(135deg,#f59e0b,#eab308);
+      transform:scale(1.05);
+    }
   </style>
-</head>
 
-<body class="overflow-auto">
+  <script src="/_sdk/data_sdk.js"></script>
+ </head>
 
-<!-- NAVBAR -->
-<nav class="fixed top-0 w-full bg-black/70 backdrop-blur z-50 px-6 py-4 flex justify-between items-center">
-  <div class="flex items-center gap-3">
-    <img src="https://speedyayu.site/wp-content/uploads/2026/01/FireVizo.jpeg"
-         class="w-10 h-10 rounded-full" alt="FireVizo">
-    <span class="text-2xl font-bold gradient-text">FireVizo</span>
+ <body class="h-full">
+  <div id="app-wrapper" class="w-full h-full overflow-auto gradient-bg">
+
+<!-- HERO CTA (TOP) -->
+<a href="https://t.me/+zrut8pMuNqs1MjE1" target="_blank" rel="noopener noreferrer"
+ class="cta-button animate-pulse-glow inline-flex items-center px-8 py-4 text-lg md:text-xl font-bold text-slate-900 rounded-full shadow-2xl">
+ Join Our Community
+</a>
+
+<!-- BOTTOM CTA -->
+<a href="https://t.me/+zrut8pMuNqs1MjE1" target="_blank" rel="noopener noreferrer"
+ class="cta-button animate-pulse-glow inline-flex items-center px-8 py-4 text-lg md:text-xl font-bold text-slate-900 rounded-full shadow-2xl mb-12">
+ Join Our Community
+</a>
+
+<!-- FOOTER TELEGRAM ICON -->
+<a href="https://t.me/+zrut8pMuNqs1MjE1" target="_blank" rel="noopener noreferrer">
+ Telegram
+</a>
+
   </div>
-  <a href="https://t.me/+zrut8pMuNqs1MjE1" target="_blank"
-     class="bg-orange-500 px-6 py-2 rounded-full font-bold text-black">
-    Join Now
-  </a>
-</nav>
-
-<!-- HERO SECTION -->
-<section class="min-h-screen flex items-center justify-center pt-24 text-center px-6 fade-in-up">
-  <div>
-    <img src="https://speedyayu.site/wp-content/uploads/2026/01/FireVizo.jpeg"
-         class="w-32 h-32 mx-auto rounded-full mb-6 shadow-lg" alt="FireVizo Logo">
-
-    <h1 class="text-5xl md:text-7xl font-bold gradient-text mb-6">
-      Join Elite Free Fire Players
-    </h1>
-
-    <p class="text-xl md:text-2xl max-w-3xl mx-auto mb-8 text-gray-300">
-      Daily custom matches, tournaments & a 50,000+ player community
-    </p>
-
-    <button id="main-cta"
-      class="bg-orange-500 px-10 py-5 rounded-full text-xl font-bold text-black pulse-animation">
-      Join Free Fire Community
-    </button>
-
-    <p class="text-sm opacity-75 mt-4">🔥
+ </body>
+</html>
