@@ -3,86 +3,502 @@
  <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PUSHPARAJ - Premium Aviator Signals</title>
-
+  <title>PUSHPARAJ - Daily Viral Reels</title>
   <script src="/_sdk/element_sdk.js"></script>
-  <script src="https://cdn.tailwindcss.com"></script>
-
-  <!-- Meta Pixel Code -->
+  <script src="https://cdn.tailwindcss.com"></script><!-- Meta Pixel Code -->
   <script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)
-  }(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '825712737166808');
-  fbq('track', 'PageView');
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '.');
+    fbq('track', 'PageView');
   </script>
   <noscript>
-    <img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=825712737166808&ev=PageView&noscript=1"/>
-  </noscript>
-  <!-- End Meta Pixel Code -->
-
+   &lt;img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=.&amp;amp;ev=PageView&amp;amp;noscript=1"&gt;
+  </noscript><!-- End Meta Pixel Code -->
   <style>
-    body { box-sizing: border-box; }
-    @keyframes fadeInUp { from {opacity:0;transform:translateY(30px)} to {opacity:1;transform:translateY(0)} }
-    @keyframes float {0%,100%{transform:translateY(0)}50%{transform:translateY(-20px)}}
-    @keyframes pulse-glow {0%,100%{box-shadow:0 0 20px rgba(234,179,8,.4)}50%{box-shadow:0 0 40px rgba(234,179,8,.8)}}
-    .animate-fade-in-up{animation:fadeInUp .8s ease-out forwards}
-    .animate-float{animation:float 3s ease-in-out infinite}
-    .animate-pulse-glow{animation:pulse-glow 2s ease-in-out infinite}
-    .gradient-bg{background:linear-gradient(135deg,#1e293b,#0f172a)}
-    .card-hover{transition:.3s}
-    .card-hover:hover{transform:translateY(-8px);box-shadow:0 20px 40px rgba(0,0,0,.3)}
-    .stat-number{
-      font-weight:800;
-      background:linear-gradient(135deg,#eab308,#f59e0b);
-      -webkit-background-clip:text;
-      -webkit-text-fill-color:transparent;
+    body {
+      box-sizing: border-box;
     }
-    .testimonial-card{
-      background:rgba(255,255,255,.05);
-      backdrop-filter:blur(10px);
-      border:1px solid rgba(255,255,255,.1);
+    
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
-    .cta-button{
-      background:linear-gradient(135deg,#eab308,#f59e0b);
-      transition:.3s;
+    
+    @keyframes pulse {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.05);
+      }
     }
-    .cta-button:hover{
-      background:linear-gradient(135deg,#f59e0b,#eab308);
-      transform:scale(1.05);
+    
+    @keyframes shimmer {
+      0% {
+        background-position: -1000px 0;
+      }
+      100% {
+        background-position: 1000px 0;
+      }
+    }
+    
+    .animate-fade-in-up {
+      animation: fadeInUp 0.8s ease-out forwards;
+    }
+    
+    .animate-pulse-slow {
+      animation: pulse 2s ease-in-out infinite;
+    }
+    
+    .shimmer {
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+      background-size: 1000px 100%;
+      animation: shimmer 2s infinite;
+    }
+    
+    .gradient-text {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    
+    .stat-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .stat-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    }
+    
+    .testimonial-card {
+      transition: transform 0.3s ease;
+    }
+    
+    .testimonial-card:hover {
+      transform: scale(1.02);
     }
   </style>
-
-  <script src="/_sdk/data_sdk.js"></script>
+  <style>@view-transition { navigation: auto; }</style>
+  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
  </head>
-
  <body class="h-full">
-  <div id="app-wrapper" class="w-full h-full overflow-auto gradient-bg">
-
-<!-- HERO CTA (TOP) -->
-<a href="https://t.me/+zrut8pMuNqs1MjE1" target="_blank" rel="noopener noreferrer"
- class="cta-button animate-pulse-glow inline-flex items-center px-8 py-4 text-lg md:text-xl font-bold text-slate-900 rounded-full shadow-2xl">
- Join Our Community
-</a>
-
-<!-- BOTTOM CTA -->
-<a href="https://t.me/+zrut8pMuNqs1MjE1" target="_blank" rel="noopener noreferrer"
- class="cta-button animate-pulse-glow inline-flex items-center px-8 py-4 text-lg md:text-xl font-bold text-slate-900 rounded-full shadow-2xl mb-12">
- Join Our Community
-</a>
-
-<!-- FOOTER TELEGRAM ICON -->
-<a href="https://t.me/+zrut8pMuNqs1MjE1" target="_blank" rel="noopener noreferrer">
- Telegram
-</a>
-
+  <div id="app-wrapper" class="h-full w-full overflow-auto"><!-- Hero Section -->
+   <section id="hero-section" class="relative min-h-screen flex items-center justify-center px-6 py-20">
+    <div class="absolute inset-0 opacity-10">
+     <div class="absolute inset-0" style="background-image: radial-gradient(circle at 2px 2px, rgba(255,255,255,0.15) 1px, transparent 0); background-size: 40px 40px;"></div>
+    </div>
+    <div class="max-w-4xl mx-auto text-center relative z-10"><!-- Logo -->
+     <div class="mb-8 animate-fade-in-up"><img id="channel-logo" src="https://speedyayu.site/wp-content/uploads/2025/12/ChatGPT-Image-Dec-15-2025-03_59_00-PM.jpg" alt="PUSHPARAJ Logo" class="w-32 h-32 mx-auto rounded-full shadow-2xl border-4 object-cover" onerror="this.src=''; this.alt='Logo not available'; this.style.display='none';">
+     </div><!-- Channel Name -->
+     <h1 id="channel-name" class="text-6xl md:text-7xl font-bold mb-4 animate-fade-in-up" style="animation-delay: 0.1s;">PUSHPARAJ</h1><!-- Headline -->
+     <h2 id="hero-headline" class="text-4xl md:text-5xl font-bold mb-6 gradient-text animate-fade-in-up" style="animation-delay: 0.2s;">Get Daily Viral Reels</h2><!-- Subheadline -->
+     <p id="hero-subheadline" class="text-xl md:text-2xl mb-8 opacity-90 animate-fade-in-up" style="animation-delay: 0.3s;">Join thousands of content creators getting the hottest trending reels delivered daily</p><!-- Trust Badge -->
+     <div class="flex items-center justify-center gap-6 mb-10 animate-fade-in-up" style="animation-delay: 0.4s;">
+      <div class="flex items-center gap-2"><span class="text-5xl">⭐</span>
+       <div class="text-left">
+        <div class="text-3xl font-bold">
+         4.9/5
+        </div>
+        <div class="text-sm opacity-80">
+         Rating
+        </div>
+       </div>
+      </div>
+      <div class="h-12 w-px opacity-30"></div>
+      <div class="flex items-center gap-2"><span class="text-5xl">👥</span>
+       <div class="text-left">
+        <div class="text-3xl font-bold">
+         50K+
+        </div>
+        <div class="text-sm opacity-80">
+         Members
+        </div>
+       </div>
+      </div>
+      <div class="h-12 w-px opacity-30"></div>
+      <div class="flex items-center gap-2"><span class="text-5xl">🔥</span>
+       <div class="text-left">
+        <div class="text-3xl font-bold">
+         95%+
+        </div>
+        <div class="text-sm opacity-80">
+         Join Rate
+        </div>
+       </div>
+      </div>
+     </div><!-- CTA Button --> <a id="cta-button-hero" href="https://t.me/+zrut8pMuNqs1MjE1" target="_blank" rel="noopener noreferrer" class="inline-block px-12 py-5 text-2xl font-bold rounded-full shadow-2xl transition-all duration-300 hover:shadow-xl hover:scale-105 animate-fade-in-up animate-pulse-slow" style="animation-delay: 0.5s;"> <span id="button-text-hero">Join Our Community</span> → </a>
+     <p class="mt-6 text-sm opacity-70 animate-fade-in-up" style="animation-delay: 0.6s;">✓ Free Forever · ✓ No Spam · ✓ Instant Access</p>
+    </div>
+   </section><!-- Features Section -->
+   <section id="features-section" class="py-20 px-6">
+    <div class="max-w-6xl mx-auto">
+     <h3 class="text-4xl md:text-5xl font-bold text-center mb-16">Why Join PUSHPARAJ?</h3>
+     <div class="grid md:grid-cols-3 gap-8"><!-- Feature 1 -->
+      <div class="stat-card rounded-2xl p-8 text-center shadow-xl">
+       <div class="text-6xl mb-4">
+        📱
+       </div>
+       <h4 id="feature-1-title" class="text-2xl font-bold mb-4">Daily Viral Content</h4>
+       <p class="opacity-80">Get fresh, trending reels every single day curated by experts</p>
+      </div><!-- Feature 2 -->
+      <div class="stat-card rounded-2xl p-8 text-center shadow-xl">
+       <div class="text-6xl mb-4">
+        🎬
+       </div>
+       <h4 id="feature-2-title" class="text-2xl font-bold mb-4">Trending Reels</h4>
+       <p class="opacity-80">Access the hottest reels before they go mainstream</p>
+      </div><!-- Feature 3 -->
+      <div class="stat-card rounded-2xl p-8 text-center shadow-xl">
+       <div class="text-6xl mb-4">
+        ⚡
+       </div>
+       <h4 id="feature-3-title" class="text-2xl font-bold mb-4">Exclusive Updates</h4>
+       <p class="opacity-80">Get insider tips and exclusive content only for members</p>
+      </div>
+     </div>
+    </div>
+   </section><!-- Social Proof Section -->
+   <section id="stats-section" class="py-20 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+     <h3 class="text-3xl md:text-4xl font-bold mb-12">Trusted by Content Creators Worldwide</h3>
+     <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
+      <div class="rounded-xl p-6 shadow-lg">
+       <div class="text-4xl font-bold mb-2">
+        50K+
+       </div>
+       <div class="opacity-80">
+        Active Members
+       </div>
+      </div>
+      <div class="rounded-xl p-6 shadow-lg">
+       <div class="text-4xl font-bold mb-2">
+        1000+
+       </div>
+       <div class="opacity-80">
+        Daily Posts
+       </div>
+      </div>
+      <div class="rounded-xl p-6 shadow-lg">
+       <div class="text-4xl font-bold mb-2">
+        95%+
+       </div>
+       <div class="opacity-80">
+        Join Rate
+       </div>
+      </div>
+      <div class="rounded-xl p-6 shadow-lg">
+       <div class="text-4xl font-bold mb-2">
+        4.9⭐
+       </div>
+       <div class="opacity-80">
+        Average Rating
+       </div>
+      </div>
+     </div>
+    </div>
+   </section><!-- Testimonials Section -->
+   <section id="testimonials-section" class="py-20 px-6">
+    <div class="max-w-6xl mx-auto">
+     <h3 class="text-4xl md:text-5xl font-bold text-center mb-4">What Our Members Say</h3>
+     <p class="text-center opacity-80 mb-16 text-lg">Real reviews from real content creators</p>
+     <div class="grid md:grid-cols-3 gap-8"><!-- Testimonial 1 -->
+      <div class="testimonial-card rounded-2xl p-8 shadow-xl">
+       <div class="flex items-center gap-2 mb-4"><span class="text-3xl">⭐⭐⭐⭐⭐</span>
+       </div>
+       <p class="text-lg mb-6 opacity-90">"Best Telegram channel for viral reels! My engagement has increased by 300% since joining. The content is always fresh and trending!"</p>
+       <div class="flex items-center gap-3">
+        <div class="w-12 h-12 rounded-full flex items-center justify-center text-2xl font-bold">
+         🎭
+        </div>
+        <div>
+         <div class="font-bold">
+          Raj Kumar
+         </div>
+         <div class="text-sm opacity-70">
+          Content Creator
+         </div>
+        </div>
+       </div>
+      </div><!-- Testimonial 2 -->
+      <div class="testimonial-card rounded-2xl p-8 shadow-xl">
+       <div class="flex items-center gap-2 mb-4"><span class="text-3xl">⭐⭐⭐⭐⭐</span>
+       </div>
+       <p class="text-lg mb-6 opacity-90">"PUSHPARAJ delivers quality content every single day. I've grown my Instagram from 5K to 50K followers in just 3 months!"</p>
+       <div class="flex items-center gap-3">
+        <div class="w-12 h-12 rounded-full flex items-center justify-center text-2xl font-bold">
+         👩
+        </div>
+        <div>
+         <div class="font-bold">
+          Priya Sharma
+         </div>
+         <div class="text-sm opacity-70">
+          Influencer
+         </div>
+        </div>
+       </div>
+      </div><!-- Testimonial 3 -->
+      <div class="testimonial-card rounded-2xl p-8 shadow-xl">
+       <div class="flex items-center gap-2 mb-4"><span class="text-3xl">⭐⭐⭐⭐⭐</span>
+       </div>
+       <p class="text-lg mb-6 opacity-90">"Amazing collection of trending reels! The admins are super responsive and the community is incredible. Highly recommend!"</p>
+       <div class="flex items-center gap-3">
+        <div class="w-12 h-12 rounded-full flex items-center justify-center text-2xl font-bold">
+         👨
+        </div>
+        <div>
+         <div class="font-bold">
+          Amit Patel
+         </div>
+         <div class="text-sm opacity-70">
+          Digital Marketer
+         </div>
+        </div>
+       </div>
+      </div><!-- Testimonial 4 -->
+      <div class="testimonial-card rounded-2xl p-8 shadow-xl">
+       <div class="flex items-center gap-2 mb-4"><span class="text-3xl">⭐⭐⭐⭐⭐</span>
+       </div>
+       <p class="text-lg mb-6 opacity-90">"I was skeptical at first, but PUSHPARAJ exceeded all my expectations. The viral reels are pure gold. My content game is now on fire!"</p>
+       <div class="flex items-center gap-3">
+        <div class="w-12 h-12 rounded-full flex items-center justify-center text-2xl font-bold">
+         🎨
+        </div>
+        <div>
+         <div class="font-bold">
+          Neha Singh
+         </div>
+         <div class="text-sm opacity-70">
+          Video Editor
+         </div>
+        </div>
+       </div>
+      </div><!-- Testimonial 5 -->
+      <div class="testimonial-card rounded-2xl p-8 shadow-xl">
+       <div class="flex items-center gap-2 mb-4"><span class="text-3xl">⭐⭐⭐⭐⭐</span>
+       </div>
+       <p class="text-lg mb-6 opacity-90">"The variety of content is incredible. From comedy to motivation, everything is here. Best decision I made for my social media!"</p>
+       <div class="flex items-center gap-3">
+        <div class="w-12 h-12 rounded-full flex items-center justify-center text-2xl font-bold">
+         🎬
+        </div>
+        <div>
+         <div class="font-bold">
+          Vikram Reddy
+         </div>
+         <div class="text-sm opacity-70">
+          YouTuber
+         </div>
+        </div>
+       </div>
+      </div><!-- Testimonial 6 -->
+      <div class="testimonial-card rounded-2xl p-8 shadow-xl">
+       <div class="flex items-center gap-2 mb-4"><span class="text-3xl">⭐⭐⭐⭐⭐</span>
+       </div>
+       <p class="text-lg mb-6 opacity-90">"Consistent quality and zero spam! PUSHPARAJ is the only channel I trust for trending reels. Worth every second!"</p>
+       <div class="flex items-center gap-3">
+        <div class="w-12 h-12 rounded-full flex items-center justify-center text-2xl font-bold">
+         💼
+        </div>
+        <div>
+         <div class="font-bold">
+          Aisha Khan
+         </div>
+         <div class="text-sm opacity-70">
+          Social Media Manager
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section><!-- Final CTA Section -->
+   <section id="final-cta-section" class="py-32 px-6">
+    <div class="max-w-3xl mx-auto text-center">
+     <h3 class="text-5xl md:text-6xl font-bold mb-6">Ready to Go Viral?</h3>
+     <p class="text-2xl mb-10 opacity-90">Join 50,000+ content creators who are already crushing it with PUSHPARAJ</p><a id="cta-button-final" href="https://t.me/+zrut8pMuNqs1MjE1" target="_blank" rel="noopener noreferrer" class="inline-block px-16 py-6 text-3xl font-bold rounded-full shadow-2xl transition-all duration-300 hover:shadow-xl hover:scale-105 animate-pulse-slow"> <span id="button-text-final">Join Our Community</span> → </a>
+     <p class="mt-8 text-lg opacity-70">🎉 Limited Time: Get access to exclusive welcome bonus content!</p>
+    </div>
+   </section><!-- Footer Section -->
+   <footer id="footer-section" class="py-12 px-6 border-t">
+    <div class="max-w-4xl mx-auto"><!-- Disclaimer -->
+     <div class="mb-8 p-6 rounded-xl text-sm opacity-80">
+      <p id="disclaimer-text" class="leading-relaxed"><strong>Disclaimer:</strong> Results may vary. The testimonials and statistics shown are based on actual user experiences but individual results depend on various factors including content quality, consistency, and audience engagement. PUSHPARAJ is a content sharing community and does not guarantee specific outcomes or viral success. All content shared is for educational and entertainment purposes.</p>
+     </div><!-- Trademark -->
+     <div class="text-center">
+      <p id="trademark-text" class="text-sm opacity-70">© 2024 PUSHPARAJ. All rights reserved. | Telegram Channel | Daily Viral Reels</p>
+      <p class="text-xs opacity-60 mt-2">Not affiliated with Instagram, Facebook, or Telegram</p>
+     </div>
+    </div>
+   </footer>
   </div>
- </body>
+  <script>
+    const defaultConfig = {
+      channel_name: "PUSHPARAJ",
+      hero_headline: "Get Daily Viral Reels",
+      hero_subheadline: "Join thousands of content creators getting the hottest trending reels delivered daily",
+      feature_1_title: "Daily Viral Content",
+      feature_2_title: "Trending Reels",
+      feature_3_title: "Exclusive Updates",
+      button_text: "Join Our Community",
+      disclaimer_text: "Disclaimer: Results may vary. The testimonials and statistics shown are based on actual user experiences but individual results depend on various factors including content quality, consistency, and audience engagement. PUSHPARAJ is a content sharing community and does not guarantee specific outcomes or viral success. All content shared is for educational and entertainment purposes.",
+      trademark_text: "© 2024 PUSHPARAJ. All rights reserved. | Telegram Channel | Daily Viral Reels",
+      background_color: "#1a0b2e",
+      surface_color: "#2d1b4e",
+      text_color: "#ffffff",
+      primary_action_color: "#7c3aed",
+      secondary_action_color: "#a78bfa"
+    };
+
+    async function onConfigChange(config) {
+      const backgroundColor = config.background_color || defaultConfig.background_color;
+      const surfaceColor = config.surface_color || defaultConfig.surface_color;
+      const textColor = config.text_color || defaultConfig.text_color;
+      const primaryActionColor = config.primary_action_color || defaultConfig.primary_action_color;
+      const secondaryActionColor = config.secondary_action_color || defaultConfig.secondary_action_color;
+      
+      // Apply background color
+      document.getElementById('app-wrapper').style.backgroundColor = backgroundColor;
+      document.getElementById('hero-section').style.backgroundColor = backgroundColor;
+      document.getElementById('final-cta-section').style.backgroundColor = backgroundColor;
+      
+      // Apply text color
+      document.body.style.color = textColor;
+      document.getElementById('channel-name').style.color = textColor;
+      document.getElementById('hero-subheadline').style.color = textColor;
+      
+      // Apply surface color to cards
+      const statCards = document.querySelectorAll('.stat-card');
+      statCards.forEach(card => {
+        card.style.backgroundColor = surfaceColor;
+        card.style.color = textColor;
+      });
+      
+      const testimonialCards = document.querySelectorAll('.testimonial-card');
+      testimonialCards.forEach(card => {
+        card.style.backgroundColor = surfaceColor;
+        card.style.color = textColor;
+      });
+      
+      document.getElementById('features-section').style.backgroundColor = surfaceColor;
+      document.getElementById('stats-section').style.backgroundColor = surfaceColor;
+      document.getElementById('testimonials-section').style.backgroundColor = backgroundColor;
+      document.getElementById('footer-section').style.backgroundColor = surfaceColor;
+      
+      const statBoxes = document.querySelectorAll('#stats-section > div > div > div');
+      statBoxes.forEach(box => {
+        box.style.backgroundColor = backgroundColor;
+        box.style.color = textColor;
+      });
+      
+      // Apply primary action color to buttons
+      const ctaButtons = [
+        document.getElementById('cta-button-hero'),
+        document.getElementById('cta-button-final')
+      ];
+      ctaButtons.forEach(button => {
+        button.style.backgroundColor = primaryActionColor;
+        button.style.color = textColor;
+      });
+      
+      // Apply border color to logo
+      document.getElementById('channel-logo').style.borderColor = secondaryActionColor;
+      
+      // Update text content
+      document.getElementById('channel-name').textContent = config.channel_name || defaultConfig.channel_name;
+      document.getElementById('hero-headline').textContent = config.hero_headline || defaultConfig.hero_headline;
+      document.getElementById('hero-subheadline').textContent = config.hero_subheadline || defaultConfig.hero_subheadline;
+      document.getElementById('feature-1-title').textContent = config.feature_1_title || defaultConfig.feature_1_title;
+      document.getElementById('feature-2-title').textContent = config.feature_2_title || defaultConfig.feature_2_title;
+      document.getElementById('feature-3-title').textContent = config.feature_3_title || defaultConfig.feature_3_title;
+      document.getElementById('button-text-hero').textContent = config.button_text || defaultConfig.button_text;
+      document.getElementById('button-text-final').textContent = config.button_text || defaultConfig.button_text;
+      document.getElementById('disclaimer-text').innerHTML = `<strong>Disclaimer:</strong> ${config.disclaimer_text || defaultConfig.disclaimer_text}`;
+      document.getElementById('trademark-text').textContent = config.trademark_text || defaultConfig.trademark_text;
+    }
+
+    function mapToCapabilities(config) {
+      return {
+        recolorables: [
+          {
+            get: () => config.background_color || defaultConfig.background_color,
+            set: (value) => {
+              config.background_color = value;
+              window.elementSdk.setConfig({ background_color: value });
+            }
+          },
+          {
+            get: () => config.surface_color || defaultConfig.surface_color,
+            set: (value) => {
+              config.surface_color = value;
+              window.elementSdk.setConfig({ surface_color: value });
+            }
+          },
+          {
+            get: () => config.text_color || defaultConfig.text_color,
+            set: (value) => {
+              config.text_color = value;
+              window.elementSdk.setConfig({ text_color: value });
+            }
+          },
+          {
+            get: () => config.primary_action_color || defaultConfig.primary_action_color,
+            set: (value) => {
+              config.primary_action_color = value;
+              window.elementSdk.setConfig({ primary_action_color: value });
+            }
+          },
+          {
+            get: () => config.secondary_action_color || defaultConfig.secondary_action_color,
+            set: (value) => {
+              config.secondary_action_color = value;
+              window.elementSdk.setConfig({ secondary_action_color: value });
+            }
+          }
+        ],
+        borderables: [],
+        fontEditable: undefined,
+        fontSizeable: undefined
+      };
+    }
+
+    function mapToEditPanelValues(config) {
+      return new Map([
+        ["channel_name", config.channel_name || defaultConfig.channel_name],
+        ["hero_headline", config.hero_headline || defaultConfig.hero_headline],
+        ["hero_subheadline", config.hero_subheadline || defaultConfig.hero_subheadline],
+        ["feature_1_title", config.feature_1_title || defaultConfig.feature_1_title],
+        ["feature_2_title", config.feature_2_title || defaultConfig.feature_2_title],
+        ["feature_3_title", config.feature_3_title || defaultConfig.feature_3_title],
+        ["button_text", config.button_text || defaultConfig.button_text],
+        ["disclaimer_text", config.disclaimer_text || defaultConfig.disclaimer_text],
+        ["trademark_text", config.trademark_text || defaultConfig.trademark_text]
+      ]);
+    }
+
+    if (window.elementSdk) {
+      window.elementSdk.init({
+        defaultConfig,
+        onConfigChange,
+        mapToCapabilities,
+        mapToEditPanelValues
+      });
+    }
+  </script>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9b77b345d7dc594e',t:'MTc2NzMzMDEwNS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
