@@ -1,2 +1,2 @@
 # pushpa
-For free fire community
+For daily viral reels community
